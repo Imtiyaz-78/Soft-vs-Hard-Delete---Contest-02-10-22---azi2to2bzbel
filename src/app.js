@@ -48,4 +48,4 @@ const express = require('express');
          await Student.deleteOne({_id:req.params.id}) 
      } 
      res.sendStatus(200); 
- }) 
+ })
